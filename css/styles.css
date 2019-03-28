@@ -5,7 +5,11 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
-  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.row-content-no-border {
+  margin: 0px auto;
+  padding: 50px 0px;
   min-height: 400px; }
 
 .footer {
@@ -19,7 +23,7 @@
   background: #9575CD;
   color: floralwhite; }
 
-address {
+.address {
   font-size: 80%;
   margin: 0px;
   color: #0f0f0f; }
@@ -51,3 +55,22 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+h4 {
+  color: #FFFFFF; }
+
+.close {
+  color: #FFFFFF; }
+
+#reserveTableHeader {
+  background-color: #512DA8; }
+
+#reserveTableBody {
+  background-color: #D1C4E9; }
+
+#loginHeader {
+  background-color: #512DA8;
+  color: floralwhite; }
+
+#loginBody {
+  background-color: #D1C4E9; }

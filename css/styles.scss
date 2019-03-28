@@ -16,7 +16,11 @@ $carousel-item-height: 300px;
 
 .row-content {
     @include zero-margin(50px, 0px);
-    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.row-content-no-border {
+    @include zero-margin(50px, 0px);
     min-height: 400px;
 }
 
@@ -31,7 +35,7 @@ $carousel-item-height: 300px;
     color: floralwhite;
 }
 
-address {
+.address {
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
@@ -73,3 +77,30 @@ body {
     position: absolute;
     bottom: 0px;
 }
+
+h4 {
+    color: #FFFFFF;
+}
+
+.close {
+    color: #FFFFFF;
+}
+
+#reserveTableHeader {
+    background-color: $background-dark;
+}
+
+#reserveTableBody {
+    background-color: $background-pale;
+}
+
+#loginHeader {
+    background-color: $background-dark;
+    color: floralwhite;
+}
+
+#loginBody {
+    background-color: $background-pale;
+}
+
+
